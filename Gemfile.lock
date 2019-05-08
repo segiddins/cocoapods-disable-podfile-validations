@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    cocoapods-disable-podfile-validations (0.1.0)
+    cocoapods-disable-podfile-validations (0.1.1)
 
 GEM
   remote: https://rubygems.org/
