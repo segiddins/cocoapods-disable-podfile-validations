@@ -12,6 +12,7 @@ end
 group :development do
   gem 'cocoapods'
 
+  gem 'parallel', '< 1.14'
   gem 'rspec'
-  gem 'rubocop'
+  gem 'rubocop', '< 0.58'
 end

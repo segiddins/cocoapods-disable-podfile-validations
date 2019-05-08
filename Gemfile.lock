@@ -63,10 +63,10 @@ GEM
     nanaimo (0.2.6)
     nap (1.1.0)
     netrc (0.11.0)
-    parallel (1.16.0)
+    parallel (1.13.0)
     parser (2.6.2.0)
       ast (~> 2.4.0)
-    psych (3.1.0)
+    powerpack (0.1.2)
     rainbow (3.0.0)
     rake (12.3.2)
     rspec (3.8.0)
@@ -82,14 +82,14 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.8.0)
     rspec-support (3.8.0)
-    rubocop (0.66.0)
+    rubocop (0.57.2)
       jaro_winkler (~> 1.5.1)
       parallel (~> 1.10)
-      parser (>= 2.5, != 2.5.1.1)
-      psych (>= 3.1.0)
+      parser (>= 2.5)
+      powerpack (~> 0.1)
       rainbow (>= 2.2.2, < 4.0)
       ruby-progressbar (~> 1.7)
-      unicode-display_width (>= 1.4.0, < 1.6)
+      unicode-display_width (~> 1.0, >= 1.0.1)
     ruby-macho (1.4.0)
     ruby-progressbar (1.10.0)
     thread_safe (0.3.6)
@@ -110,9 +110,10 @@ DEPENDENCIES
   bundler (~> 1.17)
   cocoapods
   cocoapods-disable-podfile-validations!
+  parallel (< 1.14)
   rake (~> 12.3)
   rspec
-  rubocop
+  rubocop (< 0.58)
 
 BUNDLED WITH
    1.17.3
