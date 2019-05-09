@@ -3,9 +3,11 @@ branches:
     - master
 
 before_script:
+  - gem update --system=2.7.8
   - gem install bundler -v "~> 1.17"
 
 language: ruby
 cache: bundler
 rvm:
+  - 2.1
   - 2.6.1
