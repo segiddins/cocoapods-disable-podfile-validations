@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
 
   spec.files         = Dir['lib/**/*', 'VERSION', '*.{md,txt}']
 
-  spec.add_development_dependency 'bundler', '~> 1.17'
+  spec.add_development_dependency 'bundler', '~> 2.3'
   spec.add_development_dependency 'rake', '~> 12.3'
 
   spec.required_ruby_version = '>= 2.1'
